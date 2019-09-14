@@ -3,29 +3,27 @@
     padding: 0;
     margin:0 auto;
 }
+
 body{
-    margin: 0% auto;
-    background-color: whitesmoke;
-    font-family: 'Montserrat', sans-serif; 
+
+    color: rgb(243, 235, 235);
+    background-color: rgb(17, 27, 37);
+    font-family:'Montserrat', sans-serif;
+
 }
 
-.main-container{
-    width: auto;
-}
 
 #header{
-    font-family:'Montserrat', sans-serif;
-    font-size: large;
-    font-weight: bold;
-    padding: 2% 0% 0% 0%;
+    font-size:xx-large;
+    padding: 4% 0% 0% 0%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: whitesmoke;
+  
 }
 
 .nav{
-    background-color: whitesmoke;
+
     padding-top: 1%;
 }
 
@@ -36,7 +34,7 @@ ul{
     padding: 0;
     overflow: hidden;
     display: flex;
-    font-weight: bold;
+
 }
 
 li{
@@ -51,90 +49,85 @@ a, a:visited, a:hover, a:active {
 
   }
 
-.main-photo{
+.intro{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0% auto;
-    background-color:rgb(7, 27, 46);
-    padding: 2%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px 0;  
+    padding-bottom: 0%;
 }
 
-.content-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0% auto;
-}
 
-.job-title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0% auto;
-    font-size: medium;
-    background-color: whitesmoke;
-}
-
-.content-container{
-    display: flex;
-    background-color: whitesmoke;
-    text-align: justify;
-    margin: 0% auto;
-    font-size: medium;
-    align-items: center;
-}
-h2{
-    margin:2%;
-}
-p{
-    display:inline-block;
-    font-size: small;
-    margin:3%;
-}
-
-.row {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-
-    -webkit-box-orient: horizontal; 
-    -moz-box-orient: horizontal;
-    box-orient: horizontal;
-    flex-direction: row;
-
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    box-pack: center;
-    justify-content: center;
-
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    box-align: center;  
-    align-items: center;
-
-    background-color:whitesmoke;
-
-}
-
-.cell {
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
-    box-flex: 1;
-    -webkit-flex: 1 1 auto;
-    flex: 1 1 auto; 
-
-    padding: 10px;
-    margin: 10px;
-    background-color: whitesmoke;   
-  
+.hello h2{
+    font-size: xx-large;
     text-align: center;
+}
+
+h3{
+    padding-top: 10%;
+    font-size: 16px;
+    
+}
+
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 0;
 
 }
 
-img {
-    max-width:50%;
+.hiker{
+    padding-top:5%;
+    padding-bottom: 5%;
+    -webkit-filter: invert(100%);
+
 }
 
+
+img{
+    width: 450px;
+    max-width: 100%;
+    max-height: 351px;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    border-radius:5%; 
+    padding:2%;
+}
+
+
+.row{
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px 0;
+    padding-top: 1%;
+}
+
+.job-details{
+    padding-top: 5%;
+    max-width: 50%;
+    /* text-align: center; */
+    border-radius: 2%;
+    text-justify: auto;
+
+}
+
+.job-details ul{
+    font-size: small;
+}
+
+.job-details h3{
+
+    font-size: medium;
+}
+
+footer{
+    display:flex;
+    text-align: center;
+    max-width: 50%;
+    padding: 10%;
+
+}
